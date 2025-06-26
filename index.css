@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #000000;
+  color: #00FF00;
+}
+
+.header {
+  background-color: #116666;
+  color: #FFFFFF;
+}
+
+.header h1 {
+  font-family: Papyrus, fantasy;
+  color: #AAAAAA
+}
+
+.header marquee {
+  background-color: #00FFFF;
+  padding: 3px;
+  margin: 15px;
+  border: 2px solid #00FFFF;
+  color: #FF0000;
+  font-size: 24pt;
+}
+
+.header a {
+  font-size: small;
+  color: #FFFF00;
+}
