@@ -11,9 +11,10 @@ body {
   color: #FFFFFF;
 }
 
-.header h1 {
+.top-name {
   font-family: Papyrus, fantasy;
-  color: #AAAAAA
+  color: #AAAAAA;
+  background-color: #E8C6F7;
 }
 
 .header marquee {
@@ -28,4 +29,12 @@ body {
 .header a {
   font-size: small;
   color: #FFFF00;
+  background-color: #7FFFD4;
+}
+
+.header p {
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  color: #800080;
 }
