@@ -1,37 +1,141 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>index</title>
-    <link rel="stylesheet" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div class="header">
-      <div class="top-name">
-        <h3><i>marjamjelly.github.io</i></h3>
-      </div>
-      <div class="title">
-        <img href="images/Marjamjelly.jpeg" style="float:left; height: 95%; width: 75px;">
-        <marquee behavior="alternate" scrollamount="12">WELCOME TO MARJAMJELLY.GITHUB.IO</marquee>
-        <img href="images/flag.gif" style="float:right; height: 95%; width: 75px;">
-      </div>
-      <p></p>
-      <br>
+<head>
+  <title>Welcome to Marjamjelly's WORLD WIDE WEB Page!!!</title>
+  <style>
+    body {
+      background-image: url('https://www.transparenttextures.com/patterns/zig-zag.png');
+      background-color: #00ff00;
+      color: #ff00ff;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    marquee {
+      font-size: 36px;
+      color: #ffff00;
+      background: #ff0000;
+      font-weight: bold;
+      border: 6px dashed #0000ff;
+      text-shadow: 2px 2px 0 #000;
+    }
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 10px solid #ff00ff;
+      box-shadow: 0 0 20px 10px #ff0000;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+    h1 {
+      color: #00ffff;
+      font-size: 48px;
+      background: linear-gradient(90deg, #f00, #0f0, #00f);
+      padding: 10px;
+      border-bottom: 5px double #000;
+      text-shadow: 2px 2px 2px #ff0;
+    }
+    .blink {
+      animation: blinker 0.4s linear infinite;
+      color: #ff0000;
+      font-size: 38px;
+      font-weight: bold;
+      background: #00ffff;
+    }
+    @keyframes blinker {  
+      50% { opacity: 0; }
+    }
+    ul {
+      list-style-type: square;
+      font-size: 24px;
+      color: #008000;
+      background: #ffff00;
+      display: inline-block;
+      padding: 30px;
+      border: 4px dotted #00f;
+    }
+    a {
+      color: #ff0000;
+      background: #00ff00;
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: underline wavy #00f;
+      border: 3px solid #ff0;
+      padding: 3px;
+      margin: 3px;
+      transition: all 0.1s;
+    }
+    a:hover {
+      color: #00f;
+      background: #ff0;
+      font-size: 32px;
+      border: 4px dashed #f0f;
+    }
+    .gif-party {
+      margin-top: 30px;
+    }
+    img {
+      margin: 10px;
+      border: 5px ridge #00f;
+      width: 120px;
+      height: auto;
+      image-rendering: pixelated;
+    }
+    .counter {
+      font-size: 20px;
+      color: #fff;
+      background: #000;
+      padding: 7px;
+      margin-top: 40px;
+      border: 6px inset #0ff;
+      display: inline-block;
+    }
+    .footer {
+      font-size: 18px;
+      color: #f00;
+      background: #0ff;
+      border-top: 8px groove #ff0;
+      padding: 10px;
+      margin-top: 40px;
+      font-family: 'Courier New', monospace;
+    }
+  </style>
+</head>
+<body>
+  <marquee scrollamount="20">WELCOME TO THE #1 WEBSITE ON THE PLANET!!!!</marquee>
 
-      <a href="https://www.youtube.com/@Marjamjelly">Youtube</a> |
-      <a href="https://www.github.com/Marjamjelly">Github</a> |
-      <a href="https://www.jetpunk.com/users/marjamjelly">Jetpunk</a> |
-      <a href="home.html">Home</a>
-    </div>
+  <div class="container">
+    <h1 class="blink">Marjamjelly's Super Internet HomePage!</h1>
+    <p style="font-size:30px;color:#ff0000;background:#0000ff;padding:10px;border:6px groove #0f0;">
+      <b>UNDER CONSTRUCTION!!!</b>
+      <img src="https://media.giphy.com/media/3o6gbbuLW76jkt8vIc/giphy.gif" style="width:60px;vertical-align:middle;" alt="Under Construction">
+    </p>
 
-    <div class="left-sidebar">
+    <ul>
+      <li>Click <a href="https://www.google.com/" target="_blank">HERE for Prizes!!!</a></li>
+      <li>Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">HERE for a Surprise!!!</a></li>
+      <li>Click <a href="mailto:marjamjelly@example.com">HERE to E-mail Me!!!</a></li>
+    </ul>
+    
+    <div class="gif-party">
+      <img src="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif" alt="Dancing Banana">
+      <img src="https://media.giphy.com/media/2A75RyXVzzSI2bx4Gj/giphy.gif" alt="Spinning Cat">
+      <img src="https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif" alt="Explosion">
+      <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="Rainbow">
+      <img src="https://media.giphy.com/media/3orieVaD5C0zq7q9Cw/giphy.gif" alt="Dancing Skeleton">
     </div>
+    
+    <div class="counter">
+      <b>VISITOR COUNTER:</b> <span id="counter">0000420</span>
+    </div>
+  </div>
 
-    <div class="main">
-      <p>WIP</p>
-    </div>
-
-    <div class="right-sidebar">
-    </div>
-  </body>
+  <div class="footer">
+    <blink>
+      &copy; 1999-2025 Marjamjelly's WebZone!! | Best viewed in Netscape Navigator 4.0 or Internet Explorer 5.0+ <br>
+      <a href="#">Go to TOP!</a>
+    </blink>
+  </div>
+</body>
 </html>
